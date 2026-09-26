@@ -1,3 +1,12 @@
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
 *{
     margin: 0;
     padding: 0;
@@ -34,6 +43,7 @@ body{
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
+    min-width: 0;
 }
 .search button{
     border: 0;
